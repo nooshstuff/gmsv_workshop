@@ -27706,7 +27706,7 @@ extern "C" {
 	pub fn SteamAPI_SteamUGC_v017() -> *mut ISteamUGC;
 }
 extern "C" {
-	pub fn SteamAPI_SteamGameServerUGC_v017() -> *mut ISteamUGC;
+	pub fn SteamAPI_SteamGameServerUGC_v021() -> *mut ISteamUGC;
 }
 extern "C" {
 	pub fn SteamAPI_ISteamUGC_CreateQueryUserUGCRequest(
