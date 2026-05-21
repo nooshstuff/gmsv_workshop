@@ -24296,7 +24296,7 @@ extern "C" {
 	) -> bool;
 }
 extern "C" {
-	pub fn SteamAPI_SteamFriends_v017() -> *mut ISteamFriends;
+	pub fn SteamAPI_SteamFriends_v018() -> *mut ISteamFriends;
 }
 extern "C" {
 	pub fn SteamAPI_ISteamFriends_GetPersonaName(

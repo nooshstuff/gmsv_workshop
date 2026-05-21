@@ -373,7 +373,7 @@ impl<Manager> Client<Manager> {
     /// Returns an accessor to the steam friends interface
     pub fn friends(&self) -> Friends<Manager> {
         unsafe {
-            let friends = sys::SteamAPI_SteamFriends_v017();
+            let friends = sys::SteamAPI_SteamFriends_v018();
             debug_assert!(!friends.is_null());
             Friends {
                 friends: friends,
