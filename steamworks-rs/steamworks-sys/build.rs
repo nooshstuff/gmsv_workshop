@@ -10,7 +10,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
 
-    let sdk_loc = "../../lib/steamworks_157";
+    let sdk_loc = "../../lib/steamworks_164";
     let sdk_loc = Path::new(&sdk_loc);
     println!("cargo:rerun-if-env-changed=STEAM_SDK_LOCATION");
 
