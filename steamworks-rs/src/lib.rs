@@ -5,7 +5,7 @@
 #[macro_export]
 #[cfg(target_pointer_width = "64")]
 macro_rules! sys_ugc {
-	() => { $crate::sys::SteamAPI_SteamGameServerUGC_v017() }
+	() => { $crate::sys::SteamAPI_SteamGameServerUGC_v021() }
 }
 
 #[macro_export]
@@ -23,7 +23,7 @@ macro_rules! sys_steamuser {
 #[macro_export]
 #[cfg(target_pointer_width = "32")]
 macro_rules! sys_ugc {
-	() => { $crate::sys::SteamAPI_SteamGameServerUGC_v017() }
+	() => { $crate::sys::SteamAPI_SteamGameServerUGC_v021() }
 }
 
 #[macro_export]
